@@ -1,0 +1,17 @@
+@font-face {
+    src: url(../шрифт/Inter-3.19\ \(1\).zip);
+    font-family: 'Inter';
+}
+
+div {
+    font-family: 'Inter', 'Arial', 'Helvetica';
+}
+
+.page {
+    background-color:
+        /*#E5E5E5*/
+        black;
+    margin: 0 auto;
+    max-width: 1280px;
+    color: #FFFFFF;
+}

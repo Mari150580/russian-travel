@@ -1,0 +1,11 @@
+.header__lang-link_e {
+    width: 30px;
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 319px) {
+    .header__lang-link_e {
+        max-width: 22px;
+    }
+}

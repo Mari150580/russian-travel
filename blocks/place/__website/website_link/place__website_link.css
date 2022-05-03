@@ -1,0 +1,18 @@
+.place__website_link {
+    display: flex;
+    color: #fff;
+    max-width: 456px;
+    min-height: 22px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 319px) {
+    .place__website_link {
+        margin: 0 16px 0 16px;
+        max-width: 288px;
+    }
+}

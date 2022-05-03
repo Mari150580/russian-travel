@@ -1,0 +1,23 @@
+.footer__link {
+    margin: 0;
+    min-height: 18px;
+    margin-right: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__link:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 319px) {
+    .footer__link {
+        margin-bottom: 32px;
+        margin-right: 0;
+
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 0;
+    }
+}
