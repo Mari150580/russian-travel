@@ -1,4 +1,4 @@
-.place-name__website_link {
+.place-name__website__link {
     display: flex;
     color: #fff;
     max-width: 456px;
@@ -19,7 +19,7 @@
 
 
 @media screen and (max-width: 319px) {
-    .place-name__website_link {
+    .place-name__website__link {
         margin: 0 16px 0 16px;
         max-width: 288px;
     }
