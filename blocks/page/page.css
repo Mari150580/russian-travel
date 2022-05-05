@@ -1,14 +1,14 @@
 @font-face {
-    src: url(../шрифт/Inter-3.19\ \(1\).zip);
+    src: url(../../vendor/fonts/inter.css);
     font-family: 'Inter';
 }
 
 div {
-    font-family: 'Inter', 'Arial', 'Helvetica';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
 }
 
 .page {
-    background-color: black /*#E5E5E5*/;
+    background-color: #E5E5E5;
     margin: 0 auto;
     max-width: 1280px;
     color: #FFFFFF;

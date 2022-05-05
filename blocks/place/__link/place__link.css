@@ -1,4 +1,4 @@
-.place-name__website__link {
+.place__link {
     display: flex;
     color: #fff;
     max-width: 456px;
@@ -10,17 +10,18 @@
     text-decoration-line: underline;
 }
 
-@media screen and (max-width: 420px) {
-    .place-name__website_link {
-        font-size: 16px;
-    line-height: 115%;
+@media screen and (max-width: 490px) {
+    .place__link {
+        font-size: 15px;
+        line-height: 122%;
     }
 }
 
 
 @media screen and (max-width: 319px) {
-    .place-name__website__link {
-        margin: 0 16px 0 16px;
+    .place__link {
+        font-size: 18px;
+        line-height: 122%;
         max-width: 288px;
     }
 }

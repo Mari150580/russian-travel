@@ -1,25 +1,25 @@
-.place-inform__image {
+.place__image {
     max-width: 100%;
-    min-height: 460px;
+    max-height: 460px;
 }
 
 @media screen and (max-width: 1023px) {
-    .place-inform__image {
+    .place__image {
         max-width: 100%;
         min-height: 440px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .place-inform__image {
+    .place__image {
         max-width: 100%;
         min-height: 340px;
     }
 }
 
 @media screen and (max-width: 319px) {
-    .place-inform__image {
-        max-width: 100%;
+    .place__image {
+        max-width: 320px;
         max-height: 320px;
         margin: 0;
     }
