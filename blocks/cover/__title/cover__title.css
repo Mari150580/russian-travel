@@ -6,22 +6,32 @@
     font-size: 72px;
     line-height: 106%;
     text-align: center;
-    margin: 245px 312px 32px 312px;
+    margin: auto;
+    margin-top: 245px;
+    margin-bottom: 32px;
 }
-
 
 
 @media screen and (max-width: 1023px) {
     .cover__title {
-        margin: 195px 232px 32px 232px;
+        margin-top: 195px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__title {
-        margin: 115px 104px 32px 104px;
+        margin-top: 115px;
+
     }
 }
+
+@media screen and (max-width: 454px) {
+    .cover__title {
+        font-size: 45px;
+        line-height: 106%;
+    }
+}
+
 
 @media screen and (max-width: 319px) {
     .cover__title {
@@ -29,7 +39,9 @@
         line-height: 109%;
         max-width: 288px;
         min-height: 70px;
-        margin: 33px 16px 16px 16px;
+        margin-top: 33px;
+        margin-bottom: 16px;
+
     }
 
 }

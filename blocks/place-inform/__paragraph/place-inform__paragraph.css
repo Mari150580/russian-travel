@@ -1,0 +1,24 @@
+.place-inform__paragraph {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+}
+@media screen and (max-width: 767px) {
+    .place-inform__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .place-inform__paragraph {
+        font-size: 13px;
+        line-height: 104%;
+    }
+}
+
+
+
+

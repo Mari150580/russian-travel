@@ -8,9 +8,7 @@ div {
 }
 
 .page {
-    background-color:
-        /*#E5E5E5*/
-        black;
+    background-color: black /*#E5E5E5*/;
     margin: 0 auto;
     max-width: 1280px;
     color: #FFFFFF;

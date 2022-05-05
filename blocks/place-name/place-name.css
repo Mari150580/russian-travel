@@ -1,37 +1,31 @@
-.place-2 {
+.place-name {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     grid-template-rows: 1fr;
-    max-height: 460px;
-    margin-bottom: 80px;
-}
-
-.place-2:last-child {
-    margin-bottom: 0;
+    max-height: 152px;
+    margin-bottom: 48px;
 }
 
 @media screen and (max-width: 1023px) {
-    .place-2 {
+    .place-name {
         gap: 32px;
-        max-height: 440px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .place-2 {
+    .place-name {
         gap: 28px;
-        max-height: 441px;
-        margin-bottom: 72px;
+        max-height: 46px;
     }
 }
 
 @media screen and (max-width: 319px) {
-    .place-2 {
+    .place-name {
         display: flex;
         flex-direction: column;
-        max-height: 865px;
-        margin-bottom: 50px;
+        min-height: 135px;
+        margin-bottom: 32px;
         gap: 0;
     }
 }

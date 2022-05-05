@@ -1,26 +1,27 @@
-.place__paragraph-2 {
+.place-inform__paragraph_two {
     margin: 0;
     margin-top: 26px;
     max-width: 484px;
     max-height: 203px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraph-2 {
+    .place-inform__paragraph_two {
+        max-width: 456px;
+        max-height: 377px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .place-inform__paragraph_two {
         max-width: 352px;
-        max-height: 390px;
+        max-height: 100%;
         margin-top: 25px;
-        font-size: 16px;
-        line-height: 163%;
+
     }
 }
 
 @media screen and (max-width: 319px) {
-    .place__paragraph-2 {
+    .place-inform__paragraph_two {
         margin: 25px 16px 0 16px;
         max-width: 288px;
     }
