@@ -4,19 +4,26 @@
     max-width: 690px;
     min-height: 100%;
     padding-top: 92px;
-    margin: 0 442px 0 148px;
+    margin-left: 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 114px 286px 0 48px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .intro {
+        margin-left: 34px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
-        margin: 88px 24px 0 24px;
+        margin-left: 24px;
+        padding-top: 88px;
     }
 }
 
@@ -24,6 +31,6 @@
     .intro {
         padding-top: 64px;
         max-width: 288px;
-        margin: 0 16px 0 16px;
+        margin-left: 16px;
     }
 }

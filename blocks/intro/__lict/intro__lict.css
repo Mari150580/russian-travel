@@ -7,4 +7,6 @@
     line-height: 150%;
 }
 
-
+span.number {
+    font-weight: 400;
+}
