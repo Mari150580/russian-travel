@@ -1,0 +1,24 @@
+.intro__licts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 33px;
+    max-width: 300px;
+    min-height: 100%;
+    
+}
+@media screen and (max-width: 768px) {
+    .intro__licts {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__licts {
+        max-width: 288px;
+        min-height: 90px;
+        margin-top: 34px;
+    }
+}
+
+

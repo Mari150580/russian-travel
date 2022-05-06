@@ -1,10 +1,6 @@
 .intro__lict {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    margin-top: 33px;
-    max-width: 300px;
-    min-height: 100%;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -12,20 +8,3 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .intro__lict {
-        max-width: 320px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__lict {
-        max-width: 288px;
-        min-height: 90px;
-        margin-top: 34px;
-    }
-}
-
-.intro__lict_text {
-    margin: 0;
-}
