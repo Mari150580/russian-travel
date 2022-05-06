@@ -3,25 +3,27 @@
     color: #fff;
     max-width: 456px;
     min-height: 22px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 122%;
     text-decoration-line: underline;
+    margin-top: 12px;
+}
+
+.place__link:hover {
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 490px) {
     .place__link {
         font-size: 15px;
-        line-height: 122%;
     }
 }
 
-
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .place__link {
         font-size: 18px;
-        line-height: 122%;
         max-width: 288px;
     }
 }

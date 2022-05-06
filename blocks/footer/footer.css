@@ -2,29 +2,28 @@
     margin: 92px 48px 0px 48px;
     padding-bottom: 24px;
     max-width: 1184px;
-    min-height: 18px;
+    min-height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .footer {
         margin: 88px 24px 0px 24px;
         max-width: 720px;
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .footer {
         min-width: 186px;
-        min-height: 310px;
         margin: 64px 118px 0px 16px;
         display: flex;
         flex-direction: column;

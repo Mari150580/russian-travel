@@ -1,0 +1,15 @@
+.header__lang-link_disabled {
+    max-width: 30px;
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+.header__lang-link_disabled:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link_disabled {
+        max-width: 22px;
+    }
+}
