@@ -4,20 +4,9 @@
     max-width: 690px;
     min-height: 100%;
     padding-top: 92px;
-    margin-left: 148px;
+    margin-left: 48px;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro {
-        margin-bottom: 48px;
-    }
-}
-
-@media screen and (max-width: 880px) {
-    .intro {
-        margin-left: 34px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .intro {

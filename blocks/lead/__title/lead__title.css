@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     max-width: 720px;
-    max-height: 100%;
     font-family: 'Inter';
     font-weight: 900;
     font-size: 96px;
@@ -29,6 +28,5 @@
         font-size: 40px;
         line-height: 110%;
         max-width: 288px;
-        min-height: 88px;
     }
 }
