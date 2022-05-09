@@ -7,11 +7,7 @@
     line-height: 106%;
 }
 
-@media screen and (max-width: 825px) {
-    .place__title {
-        font-size: 62px;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     .place__title {
@@ -27,7 +23,7 @@
 }
 
 @media screen and (max-width: 360px) {
-    .lead__title {
+    .place__title {
         font-size: 25px;
     }
 }
@@ -39,7 +35,4 @@
         line-height: 109%;
     }
 
-    .place_title:last-child {
-        margin-top: 0;
-    }
 }
